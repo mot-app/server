@@ -24,4 +24,5 @@ router.put('/meetup/:id', (req, res) => {
 router.delete('/meetup/:id', (req, res) => {
 	res.send('Delete a meetup')
 })
+
 module.exports = router
